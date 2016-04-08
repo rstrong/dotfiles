@@ -36,5 +36,5 @@ foreach my $dir (@dirs)
     if (-e $dn and -d $dn) {
         mv_dir($dn);
     }
-    system("mkdir $dn && cp -r $dir $dn");
+    system("mkdir $dn && cp -r $dir/* $dn/");
 }
