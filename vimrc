@@ -19,3 +19,5 @@ highlight SpecialKey ctermfg=darkgray
 
 " line numbers
 set nu
+
+execute pathogen#infect()
