@@ -2,7 +2,7 @@
 
 use strict; use warnings;
 
-my @rc_files = qw/bashrc vimrc screenrc/;
+my @rc_files = qw/bashrc vimrc screenrc tmux.conf/;
 my @dirs = qw/vim/;
 
 sub backup_file
